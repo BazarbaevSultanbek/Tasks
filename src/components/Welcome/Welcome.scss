@@ -1,0 +1,26 @@
+
+
+.Welcome-block {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    input {
+        width: 250px;
+        font-family: Arial, sans-serif;
+        height: 35px;
+        border: 1px solid #787878;
+        border-radius: 5px;
+        padding: 15px;
+        font-size: 18px;
+        outline: none;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: 'Arial', sans-serif;
+        font-style: normal;        
+    }
+}

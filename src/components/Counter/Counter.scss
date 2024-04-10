@@ -1,0 +1,11 @@
+.Counter-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+.Counter-block-number{
+    font-size: 20px;
+    font-family: 'Arial',sans-serif;
+}

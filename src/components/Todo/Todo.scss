@@ -1,0 +1,37 @@
+.Todo-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    gap: 50px;
+    .Todo-block-navi {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        gap: 20px;
+
+        .btn-primary {
+            width: 150px;
+        }
+    }
+
+    .Todo-block-list {
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            border: 1px solid black;
+            padding: 7px;
+            font-size: 18px;
+            font-family: 'Arial', sans-serif;
+            button {
+                border: 1px solid black;
+                border-radius: 3px;
+                padding: 3px 5px;
+                font-size: 10px;
+                font-weight: 600;                
+            }
+        }
+    }
+}

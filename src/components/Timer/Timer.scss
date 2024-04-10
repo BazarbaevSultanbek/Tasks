@@ -1,0 +1,13 @@
+.Timer-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:50px;
+    gap: 30px;
+    div{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: baseline;
+    }
+}

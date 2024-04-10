@@ -1,0 +1,9 @@
+.Show-block {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 50px;
+    &-text{
+        width: 500px;
+    }
+}
